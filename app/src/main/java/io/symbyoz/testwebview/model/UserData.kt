@@ -7,7 +7,7 @@ import com.parse.ktx.delegates.stringAttribute
 
 @ParseClassName("UserData")
 class UserData : ParseObject() {
-    var id: String by stringAttribute()
+    var client_id: String by stringAttribute()
     var username: String by stringAttribute()
-    var media_count: Int by intAttribute()
+    var media_count: String by stringAttribute()
 }

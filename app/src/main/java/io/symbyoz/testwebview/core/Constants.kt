@@ -7,7 +7,6 @@ class INSTAGRAM_API
         const val CLIENT_ID = 3221018874586995
         const val CLIENT_SECRET = "1a33beed2a1ecbaad3f141b41687deea"
         const val REDIRECT_URL = "https://www.facebook.com/connect/login_success.html"
-        const val SCOPE = "user_profile,user_media"
         const val REQUEST_URL = "https://api.instagram.com/oauth/authorize" +
         "?client_id=3221018874586995" +
         "&redirect_uri=https://www.facebook.com/connect/login_success.html" +

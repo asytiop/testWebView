@@ -6,7 +6,7 @@ import com.parse.ktx.delegates.stringAttribute
 
 @ParseClassName("UserMedia")
 class UserMedia : ParseObject(){
-    val id: String by stringAttribute()
+    val media_id: String by stringAttribute()
     val username: String by stringAttribute()
     val timestamp: String by stringAttribute()
     val caption: String by stringAttribute()
